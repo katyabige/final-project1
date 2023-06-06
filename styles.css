@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600&display=swap');
+
+/* Обнулення стилів */
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+/* Обнулення стилів */
+
+
+/* хедер початок */
+
+.bg__image {
+  background: url(https://i.pinimg.com/564x/bf/c3/db/bfc3dbd20b8e471e63dc355dbb837b8b.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffffff; 
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu__link {
+  color: #000;
+  transition: 100ms linear;
+  font-size: 14px;
+}
+
+.menu__link:hover {
+  border-bottom: 2px solid #000;
+  font-size: 16px;
+}
+
+.menu__2 .menu__link:hover {
+  color: #FFFFFF;
+  border-bottom: none;
+}
+
+.header__item{
+  margin-top: 270px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 40px 0; 
+  border-bottom: 2px solid #ffffff; 
+}
+
+.header__name {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.header__text {
+  margin-bottom: 30px;
+}
+
+/* хедер кінець */
+
+
+/* меін початок */
+
+.head__text {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.head__title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card__container__2 .card {
+  border-top: none;
+}
+
+.buy {
+  color: #000;
+}
+
+.price {
+  color: rgb(144, 164, 174);
+  margin-top: 5px;
+}
+
+.card__price {
+  display: grid;
+  height: 70px;
+  grid-template-columns: 200px 100px;
+}
+
+.card {
+  border: 1px solid #000;
+  border-right: none;
+  position: relative;
+}
+
+.card:last-child {
+  border-right: 1px solid #000;
+}
+
+.sale {
+  padding: 2px 6px;
+  border: 1px solid black;
+  background: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.card-header {
+  border-right: 1px solid #000;
+  padding: 15px;
+  font-size: 14px;
+  height: 70px;
+}
+
+.fa-cart-shopping, .fa-magnifying-glass{
+  margin-left: 5px;
+}
+
+
+.buy {
+  font-size: 18px;
+}
+
+.card__image {
+  height: 500px;
+  border-bottom: none;
+  background-size: contain;
+  background-position: center;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.image {
+  background: url(https://i.pinimg.com/564x/f2/ab/1b/f2ab1bd285ebd423ba5c63107f76c5de.jpg);
+  background-size: cover;
+}
+
+.image:hover {
+  background: url(https://i.pinimg.com/564x/a6/20/86/a620861bc6f9170c8d1e7b1d16f6640b.jpg);
+  background-size: cover;
+}
+
+.image__1 {
+  background: url(https://i.pinimg.com/564x/9e/98/9b/9e989b49bdf4c683f49d6985f693c444.jpg);
+  background-size: cover;
+}
+
+.image__1:hover {
+  background: url(https://i.pinimg.com/564x/e0/12/f1/e012f16ebae6eff57c468511bc6a7e75.jpg);
+  background-size: cover;
+}
+
+.image__2 {
+  background: url(https://i.pinimg.com/564x/8b/45/ba/8b45ba1379ec1449c57a3d9ba17d7e17.jpg);
+  background-size: cover;
+}
+
+.image__2:hover {
+  background: url(https://i.pinimg.com/564x/6c/af/3d/6caf3df3756fb26272df1819373320ed.jpg);
+  background-size: cover;
+}
+
+.image__3 {
+  background: url(https://i.pinimg.com/564x/dc/03/9b/dc039bc20d64ee12bc4f7d982b0cca37.jpg);
+  background-size: cover;
+}
+
+.image__3:hover {
+  background: url(https://i.pinimg.com/564x/28/09/fc/2809fc6658f5159ae7bb9a07c770eed7.jpg);
+  background-size: cover;
+}
+
+.image__4 {
+  background: url(https://www.alicecatherine.com/wp-content/uploads/2018/06/DF8E45E6-3456-476F-9990-063A7C81E7FB.jpeg);
+  background-size: cover;
+}
+
+.image__4:hover {
+  background: url(https://www.alicecatherine.com/wp-content/uploads/2018/06/B79A7DE7-22DD-48FD-8C31-0A8068357A39.jpeg);
+  background-size: cover;
+}
+
+.image__5 {
+  background: url(https://i.pinimg.com/564x/70/97/68/70976866d38dbac792751dcc4d04255a.jpg);
+  background-size: cover;
+}
+
+.image__5:hover {
+  background: url(https://i.pinimg.com/564x/cc/bb/68/ccbb681ccdcfe3eccc04a03d26a3df14.jpg);
+  background-size: cover;
+}
+
+.image__6 {
+  background: url(https://images.unsplash.com/photo-1597253705398-6a8c4093ef9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.image__6:hover {
+  background: url(https://images.unsplash.com/photo-1597196391082-e843efcdcd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.image__7 {
+  background: url(https://images.unsplash.com/photo-1623929283936-346f0e6274ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+  background-size: cover;
+}
+
+.image__7:hover {
+  background: url(https://images.unsplash.com/photo-1623930354140-03c5ae186bf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body i {
+  font-size: 30px;
+}
+
+.card-body:hover i {
+  color: rgb(56, 142, 60);
+}
+
+.clothes {
+  margin-top: 200px;
+}
+
+.clothes__list {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.clothes__item__link {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.category {
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 70vh;
+  grid-template-columns: 50% 50%;
+}
+
+.category__title {
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category__title:first-child {
+  border-right: 1px solid black;
+}
+
+.woman {
+  background: url(https://images.pexels.com/photos/11124994/pexels-photo-11124994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.man {
+  background: url(https://images.pexels.com/photos/842569/pexels-photo-842569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.category__inner {
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.shop {
+  font-size: 14px;
+  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.1s linear;
+  border: 1px solid #000;
+}
+
+.shop:hover {
+  color: #fff;
+  background: rgb(2, 2, 2);
+}
+
+
+.partners {
+  margin-top: 100px;
+}
+
+.partners__title {
+  color: #ffffff;
+  font-size: 200px;
+  line-height: 100px;
+  text-align: center;
+  -webkit-text-stroke: 2px #000;
+}
+
+.partners__inner {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+}
+
+.block__image {
+  background: url(https://i.pinimg.com/564x/ed/38/37/ed383798ed3e5f3c0479a45bf751a322.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 100px;
+  border: 1px solid black;
+}
+
+.block {
+  text-align: center;
+}
+
+.block__text {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.block__text span {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.block__read {
+  color: #fff;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
+}
+
+.blog__title {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.blog__container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog__category {
+  text-align: center;
+}
+
+.blog__category__link {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.blog__category__link:first-child {
+  border-right: 1px solid #000;
+}
+
+.blog__item__image {
+  /* width: 523px; */
+}
+
+.blog__image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.blog__name {
+  font-size: 25px;
+  text-align: center;
+  border-top: 2px solid #000;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.blog__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.two {
+  height: 700px;
+}
+
+.photo__blog {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.photo__blog__image {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.photo__blog__name {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.photo__blog__text {
+  margin-bottom: 30px;
+}
+
+/* меін кінець */
+
+/* футер початок */
+
+.footer {
+  background: rgb(255, 224, 178);
+  margin-top: 200px;
+}
+
+.footer__content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer__nav {
+  margin-bottom: 50px;
+}
+
+.footer__menu {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.footer__menu-item {
+  margin-bottom: 15px;
+}
+
+
+.footer__menu-link {
+  color: #000000;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.footer__social i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #000;
+  background: #000;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+
+.fa-pinterest-p:hover {
+  color: #bd081c;
+}
+
+.fa-snapchat:hover {
+  color: #fffc00;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+}
+
+.footer__text {
+  text-align: center;
+}
+
+.footer__text p {
+  margin-bottom: 10px;
+}
+
+.payment {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.payment i {
+  color: #000;
+  font-size: 40px;
+  transition: all 0.3s ease-in;
+}
+
+
+.fa-cc-visa:hover {
+  color: #1434cb;
+}
+
+.fa-cc-mastercard:hover {
+  color: #EA961A;
+}
+
+.fa-google-pay:hover {
+  color: #ea4335;
+}
+
+.fa-apple-pay:hover {
+  color: #0a0a0a;
+}
+
+/* футер кінець */
